@@ -1,0 +1,146 @@
+Number,Title,Request Address,Request Method,Request Type
+149,plugins-Delete App Management,/admin-api/v1/plugins/filemgr/filemgr-app,DELETE,Plugin
+148,plugins-Delete Content Category Management,/admin-api/v1/plugins/content/content-category,DELETE,Plugin
+147,plugins-Delete Article Management,/admin-api/v1/plugins/content/content-article,DELETE,Plugin
+146,plugins-Delete Announcement Management,/admin-api/v1/plugins/content/content-announcement,DELETE,Plugin
+145,app-Delete User Level Management,/admin-api/v1/app/user/user-level,DELETE,App
+144,app-Delete Country Code Management,/admin-api/v1/app/user/user-country-code,DELETE,App
+143,admin-Delete System User Management,/admin-api/v1/admin/sys/sys-user,DELETE,Admin
+142,admin-Delete Role Management,/admin-api/v1/admin/sys/sys-role,DELETE,Admin
+141,admin-Delete Post Management,/admin-api/v1/admin/sys/sys-post,DELETE,Admin
+140,admin-Delete Operation Log,/admin-api/v1/admin/sys/sys-oper-log,DELETE,Admin
+139,admin-Delete Menu Management,/admin-api/v1/admin/sys/sys-menu,DELETE,Admin
+138,admin-Delete Login Log,/admin-api/v1/admin/sys/sys-login-log,DELETE,Admin
+137,admin-Delete Table Management,/admin-api/v1/admin/sys/sys-table,DELETE,Admin
+136,admin-Delete Configuration Management,/admin-api/v1/admin/sys/sys-config,DELETE,Admin
+135,admin-Delete API Management,/admin-api/v1/admin/sys/sys-api,DELETE,Admin
+134,admin-Delete Department Management,/admin-api/v1/admin/sys/sys-dept,DELETE,Admin
+133,admin-Delete Dictionary Type,/admin-api/v1/admin/sys/sys-dict/type,DELETE,Admin
+132,admin-Delete Dictionary Data,/admin-api/v1/admin/sys/sys-dict/data,DELETE,Admin
+131,plugins-Update App Management,/admin-api/v1/plugins/filemgr/filemgr-app/:id,PUT,Plugin
+130,plugins-Update Content Category Management,/admin-api/v1/plugins/content/content-category/:id,PUT,Plugin
+129,plugins-Update Article Management,/admin-api/v1/plugins/content/content-article/:id,PUT,Plugin
+128,plugins-Update Announcement Management,/admin-api/v1/plugins/content/content-announcement/:id,PUT,Plugin
+127,app-Update User Management,/admin-api/v1/app/user/user/:id,PUT,App
+126,app-Update User Level Management,/admin-api/v1/app/user/user-level/:id,PUT,App
+125,app-Update Country Code Management,/admin-api/v1/app/user/user-country-code/:id,PUT,App
+124,app-Update User Configuration Management,/admin-api/v1/app/user/user-conf/:id,PUT,App
+123,admin-Update Post Management,/admin-api/v1/admin/sys/sys-post/:id,PUT,Admin
+122,admin-Update Menu Management,/admin-api/v1/admin/sys/sys-menu/:id,PUT,Admin
+121,admin-Update Table Management,/admin-api/v1/admin/sys/sys-table/:id,PUT,Admin
+120,admin-Update Configuration Management,/admin-api/v1/admin/sys/sys-config/:id,PUT,Admin
+119,admin-Update API Management,/admin-api/v1/admin/sys/sys-api/:id,PUT,Admin
+118,admin-Update Role Management,/admin-api/v1/admin/sys/sys-role/:id,PUT,Admin
+117,admin-Update Role Management Data Scope,/admin-api/v1/admin/sys/sys-role/role-data-scope,PUT,Admin
+116,admin-Update Role Management Status,/admin-api/v1/admin/sys/sys-role/role-status,PUT,Admin
+115,admin-Update Department Management,/admin-api/v1/admin/sys/sys-dept/:id,PUT,Admin
+114,admin-Update Dictionary Type,/admin-api/v1/admin/sys/sys-dict/type/:id,PUT,Admin
+113,admin-Update Dictionary Data,/admin-api/v1/admin/sys/sys-dict/data/:id,PUT,Admin
+112,admin-Update System User Management,/admin-api/v1/admin/sys/sys-user/:id,PUT,Admin
+111,admin-Update System User Status,/admin-api/v1/admin/sys/sys-user/update-status,PUT,Admin
+110,admin-Reset System User Password,/admin-api/v1/admin/sys/sys-user/pwd-reset,PUT,Admin
+109,admin-Update System Logged-in User Password,/admin-api/v1/admin/sys/sys-user/profile/pwd,PUT,Admin
+108,admin-Update System Logged-in User Info,/admin-api/v1/admin/sys/sys-user/profile,PUT,Admin
+107,admin-System Login,/admin-api/v1/login,POST,Admin
+106,plugins-Upload App,/admin-api/v1/plugins/filemgr/filemgr-app/upload,POST,Plugin
+105,plugins-Add App Management,/admin-api/v1/plugins/filemgr/filemgr-app,POST,Plugin
+104,plugins-Add Content Category Management Details,/admin-api/v1/plugins/content/content-category,POST,Plugin
+103,plugins-Add Article Management,/admin-api/v1/plugins/content/content-article,POST,Plugin
+102,plugins-Add Announcement Management,/admin-api/v1/plugins/content/content-announcement,POST,Plugin
+101,app-Add User Level Management,/admin-api/v1/app/user/user-level,POST,App
+100,app-Add Country Code Management,/admin-api/v1/app/user/user-country-code,POST,App
+99,app-Add User Management,/admin-api/v1/app/user/user,POST,App
+98,admin-Add Role Management,/admin-api/v1/admin/sys/sys-role,POST,Admin
+97,admin-Add Post Management,/admin-api/v1/admin/sys/sys-post,POST,Admin
+96,admin-Add Menu Management,/admin-api/v1/admin/sys/sys-menu,POST,Admin
+95,admin-Add Table Management,/admin-api/v1/admin/sys/sys-table,POST,Admin
+94,admin-Add Configuration Management,/admin-api/v1/admin/sys/sys-config,POST,Admin
+93,admin-Update System Logged-in User Avatar,/admin-api/v1/admin/sys/sys-user/profile/avatar,POST,Admin
+92,admin-Add System User Management,/admin-api/v1/admin/sys/sys-user,POST,Admin
+91,admin-Add Department Management,/admin-api/v1/admin/sys/sys-dept,POST,Admin
+90,admin-Add Dictionary Type,/admin-api/v1/admin/sys/sys-dict/type,POST,Admin
+89,admin-Add Dictionary Data,/admin-api/v1/admin/sys/sys-dict/data,POST,Admin
+88,Static File 2,/static/*filepath,GET,Admin
+87,Static File,/admin-api/files/*filepath,GET,Admin
+86,admin-Get Graphical Verification Code,/admin-api/v1/captcha,GET,Admin
+85,plugins-Get Verification Code Management Details,/admin-api/v1/plugins/msg/msg-code/:id,GET,Plugin
+84,plugins-Get Verification Code Management Paged List,/admin-api/v1/plugins/msg/msg-code,GET,Plugin
+83,plugins-Get App Management Details,/admin-api/v1/plugins/filemgr/filemgr-app/:id,GET,Plugin
+82,plugins-Export App Management,/admin-api/v1/plugins/filemgr/filemgr-app/export,GET,Plugin
+81,plugins-Get App Management Paged List,/admin-api/v1/plugins/filemgr/filemgr-app,GET,Plugin
+80,plugins-Get Content Category Management Details,/admin-api/v1/plugins/content/content-category/:id,GET,Plugin
+79,plugins-Export Content Category Management,/admin-api/v1/plugins/content/content-category/export,GET,Plugin
+78,plugins-Get Content Category Management Paged List,/admin-api/v1/plugins/content/content-category,GET,Plugin
+77,plugins-Get Article Management Details,/admin-api/v1/plugins/content/content-article/:id,GET,Plugin
+76,plugins-Export Article Management,/admin-api/v1/plugins/content/content-article/export,GET,Plugin
+75,plugins-Get Article Management Paged List,/admin-api/v1/plugins/content/content-article,GET,Plugin
+74,plugins-Get Announcement Management Details,/admin-api/v1/plugins/content/content-announcement/:id,GET,Plugin
+73,plugins-Export Announcement Management,/admin-api/v1/plugins/content/content-announcement/export,GET,Plugin
+72,plugins-Get Announcement Management Paged List,/admin-api/v1/plugins/content/content-announcement,GET,Plugin
+71,app-Get User Management Details,/admin-api/v1/app/user/user/:id,GET,App
+70,app-Export User Management,/admin-api/v1/app/user/user/export,GET,App
+69,app-Get User Operation Log Details,/admin-api/v1/app/user/user-oper-log/:id,GET,App
+68,app-Export User Operation Log,/admin-api/v1/app/user/user-oper-log/export,GET,App
+67,app-Get User Operation Log Paged List,/admin-api/v1/app/user/user-oper-log,GET,App
+66,app-Get User Level Management Details,/admin-api/v1/app/user/user-level/:id,GET,App
+65,app-Export User Level Management,/admin-api/v1/app/user/user-level/export,GET,App
+64,app-Get User Level Management Paged List,/admin-api/v1/app/user/user-level,GET,App
+63,app-Get Account Change Record Details,/admin-api/v1/app/user/user-account-log/:id,GET,App
+62,app-Export Account Change Record,/admin-api/v1/app/user/user-account-log/export,GET,App
+61,app-Get Account Change Record Paged List,/admin-api/v1/app/user/user-account-log,GET,App
+60,app-Get User Configuration Management Details,/admin-api/v1/app/user/user-conf/:id,GET,App
+59,app-Get User Configuration Management Paged List,/admin-api/v1/app/user/user-conf,GET,App
+58,app-Get Country Code Management Details,/admin-api/v1/app/user/user-country-code/:id,GET,App
+57,app-Export Country Code Management,/admin-api/v1/app/user/user-country-code/export,GET,App
+56,app-Get Country Code Management Paged List,/admin-api/v1/app/user/user-country-code,GET,App
+55,app-Get User Management Paged List,/admin-api/v1/app/user/user,GET,App
+54,admin-Get Role Management Details,/admin-api/v1/admin/sys/sys-role/:id,GET,Admin
+53,admin-Get All Role Management List,/admin-api/v1/admin/sys/sys-role/list,GET,Admin
+52,admin-Get Role Management Paged List,/admin-api/v1/admin/sys/sys-role,GET,Admin
+51,admin-Get Operation Log Details,/admin-api/v1/admin/sys/sys-oper-log/:id,GET,Admin
+50,admin-Export Operation Log,/admin-api/v1/admin/sys/sys-oper-log/export,GET,Admin
+49,admin-Get Operation Log Paged List,/admin-api/v1/admin/sys/sys-oper-log,GET,Admin
+48,admin-Get Login Log Details,/admin-api/v1/admin/sys/sys-login-log/:id,GET,Admin
+47,admin-Export Login Log,/admin-api/v1/admin/sys/sys-login-log/export,GET,Admin
+46,admin-Get Login Log Paged List,/admin-api/v1/admin/sys/sys-login-log,GET,Admin
+45,admin-Get System User Management Details,/admin-api/v1/admin/sys/sys-user/:id,GET,Admin
+44,admin-Get System Logged-in User Info,/admin-api/v1/admin/sys/sys-user/profile,GET,Admin
+43,admin-System Logout,/admin-api/v1/admin/sys/sys-user/logout,GET,Admin
+42,admin-Get System User Management Paged List,/admin-api/v1/admin/sys/sys-user,GET,Admin
+41,admin-Get Post Management Details,/admin-api/v1/admin/sys/sys-post/:id,GET,Admin
+40,admin-Export Post Management,/admin-api/v1/admin/sys/sys-post/export,GET,Admin
+39,admin-Get All Post Management List,/admin-api/v1/admin/sys/sys-post/list,GET,Admin
+38,admin-Get Post Management Paged List,/admin-api/v1/admin/sys/sys-post,GET,Admin
+37,admin-Get Configuration Management Details,/admin-api/v1/admin/sys/sys-config/:id,GET,Admin
+36,admin-Get Configuration Value by Key,/admin-api/v1/admin/sys/sys-config/key/:configKey,GET,Admin
+34,admin-Export Configuration Management,/admin-api/v1/admin/sys/sys-config/export,GET,Admin
+33,admin-Get Configuration Management Paged List,/admin-api/v1/admin/sys/sys-config,GET,Admin
+32,admin-Get API Management Details,/admin-api/v1/admin/sys/sys-api/:id,GET,Admin
+31,admin-Export API Management,/admin-api/v1/admin/sys/sys-api/export,GET,Admin
+30,admin-Get All API Management List,/admin-api/v1/admin/sys/sys-api/list,GET,Admin
+28,admin-Synchronize API Data,/admin-api/v1/admin/sys/sys-api/sync,GET,Admin
+27,admin-Get API Management Paged List,/admin-api/v1/admin/sys/sys-api,GET,Admin
+26,admin-Get Table Management Details,/admin-api/v1/admin/sys/sys-table/:id,GET,Admin
+25,admin-Preview Table Management Code Page,/admin-api/v1/admin/sys/sys-table/preview/:id,GET,Admin
+24,admin-Get DB Table Paged List for Table Management,/admin-api/v1/admin/sys/sys-table/db-tables,GET,Admin
+23,admin-Generate Table Management Code,/admin-api/v1/admin/sys/sys-table/gen/:id,GET,Admin
+22,admin-Generate Menu Data from Table Management,/admin-api/v1/admin/sys/sys-table/gen/db/:id,GET,Admin
+21,admin-Table Management Code Download,/admin-api/v1/admin/sys/sys-table/gen/download/:id,GET,Admin
+20,admin-Get Table Management Paged List,/admin-api/v1/admin/sys/sys-table,GET,Admin
+18,admin-Ping,/admin-api/v1/admin/sys/sys-monitor/ping,GET,Admin
+17,admin-Prometheus Monitoring,/admin-api/v1/admin/sys/sys-monitor/prom,GET,Admin
+16,admin-Get Server Information,/admin-api/v1/admin/sys/sys-monitor,GET,Admin
+15,admin-Get Menu Management Details,/admin-api/v1/admin/sys/sys-menu/:id,GET,Admin
+14,admin-Get All Menus and Selected Menu IDs,/admin-api/v1/admin/sys/sys-menu/role-menu-tree-select/:roleId,GET,Admin
+13,admin-Get Menus by Role,/admin-api/v1/admin/sys/sys-menu/menu-role,GET,Admin
+12,admin-Get Menu Management Tree,/admin-api/v1/admin/sys/sys-menu,GET,Admin
+11,admin-Get Department Management Details,/admin-api/v1/admin/sys/sys-dept/:id,GET,Admin
+10,admin-Get Departments by Role,/admin-api/v1/admin/sys/sys-dept/role-dept-tree-select/:roleId,GET,Admin
+9,admin-Get Department Management Tree,/admin-api/v1/admin/sys/sys-dept/dept-tree,GET,Admin
+7,admin-Get Dictionary Data Details,/admin-api/v1/admin/sys/sys-dict/data/:id,GET,Admin
+6,admin-Get All Dictionary Data List,/admin-api/v1/admin/sys/sys-dict/data/select,GET,Admin
+5,admin-Get Dictionary Data Paged List,/admin-api/v1/admin/sys/sys-dict/data,GET,Admin
+4,admin-Get Dictionary Type Details,/admin-api/v1/admin/sys/sys-dict/type/:id,GET,Admin
+3,admin-Export Dictionary Type,/admin-api/v1/admin/sys/sys-dict/type/export,GET,Admin
+2,admin-Get All Dictionary Type List,/admin-api/v1/admin/sys/sys-dict/type/option-select,GET,Admin
+1,admin-Get Dictionary Type Paged List,/admin-api/v1/admin/sys/sys-dict/type,GET,Admin
